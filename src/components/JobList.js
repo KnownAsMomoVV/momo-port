@@ -82,30 +82,22 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
-      jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+    ITECH: {
+      jobTitle: "high-school diploma @",
+      duration: "AUG 2019 - AUG 2021",
       desc: [
-        "Collaborate with experienced cross-disciplinary Amazonians to conceive, design, and bring innovative products and services to market.",
-        "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.",
-        "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use."
+        "Worked on mutiple different Projects in the field of IT, Electronics and Mechanics.",
+        "Build a alarm system including its on webapp and a mobile app as my final project.",
+        "Learned how to work in a team and how to apply the agile methodology."
       ]
     },
-    Wattpad: {
-      jobTitle: "Software Engineering Intern @",
-      duration: "MAY 2020 - APR 2021",
+    "BHH | Berufliche Hochschule Hamburg": {
+      jobTitle: "B.Sc. Computer Science @",
+      duration: "AUG 2021 - AUG 2025 (Currently)",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
-      ]
-    },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
-      desc: [
-        "Developing and researching an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "Studying Computer Science with a focus on Software Engineering, while continuing to work on my own projects and adapting new technologies ive learned.",
+        "I'm steadily improving my understanding of coding and algorithms, always curious to learn about the latest technologies.",
+          "Having written two academic term papers on REST APIs and HATEOAS, I am furthering my understanding of web services and their architectural styles, reflecting a keen interest in the principles of modern web development."
       ]
     },
     // Centivizer: {
@@ -116,20 +108,21 @@ const JobList = () => {
     //     "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
     //   ]
     // },
-    // TDSB: {
-    //   jobTitle: "Software Engineer @",
-    //   duration: "SEPT 2019 - DEC 2020",
-    //   desc: [
-    //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
-    //   ]
-    // },
-    "Orange Gate": {
-      jobTitle: "Software Engineering Intern @",
-      duration: "MAY 2019 - AUG 2019",
+     "Hanseatic Bank": {
+       jobTitle: "Software Developer @",
+       duration: "AUG 2021 - (Currently)",
+       desc: [
+         "As a Full Stack Developer in the Onboarding Department, I facilitate the smooth integration of numerous new customers daily, ensuring meticulous validation, logical checks, and a seamless onboarding experience for all.",
+           "Part of my practical experience includes assisting with the setup of a LEANIX-based workflow and contributing to the mapping of multiple web applications, demonstrating my ongoing learning and adaptation in a real-world setting.",
+     ]
+     },
+    "MCUT | Ming Chi University of Technology": {
+      jobTitle: "Cultural Study Exchange @",
+      duration: "MARCH 2023 - APRIL 2023",
       desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sen- sors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+        "During a three-week study exchange at Ming Chi University of Technology in Taiwan, I had the opportunity to partake in a Design Thinking Workshop, further enhancing my problem-solving and collaborative skills.",
+        "In this endeavor, our team successfully bolstered a struggling non-profit, creating a responsive website and an impactful marketing strategy, along with developing an efficient backend system for managing current and prospective customers.",
+        "we utilized a range of technologies and methodologies, such as React, SWOT Analysis, and the MoSCoW prioritization method, reinforcing my versatility in various technical and strategic approaches."
       ]
     }
   };

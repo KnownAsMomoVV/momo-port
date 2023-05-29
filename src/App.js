@@ -9,14 +9,21 @@ import "./App.css";
 import "./styles/Global.css";
 import "rsuite/dist/styles/rsuite-default.css";
 
+// create style for 5rem
+const style = {
+    marginTop: "10rem"
+};
+
 function App() {
   return (
     <div className="App">
       <div id="content">
         <Intro></Intro>
         <About></About>
+          <div style={style}>
+          <Experience></Experience>
+          </div>
           {/*
-        <Experience></Experience>
         <Projects></Projects>
         */}
           <Credits></Credits>
