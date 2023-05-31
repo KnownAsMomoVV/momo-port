@@ -7,7 +7,6 @@ import MomoModel from "./ModelModel";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
 import FractalTree from "./FractalTree";
-import FractalTree2 from "./FractualTree2";
 import {color} from "three/examples/jsm/libs/dat.gui.module";
 
 class Intro extends React.Component {
