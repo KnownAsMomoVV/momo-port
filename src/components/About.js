@@ -19,16 +19,15 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Fullstack Software Developer</b> at
-        <a href="https://www.hanseaticbank.de/"> Hanseatic Bank</a>, working in Solution Development
-          . At the same time, I am undertaking a
-        part-time <b> Bachelors's degree</b> in <b>Computer Science </b>at<br></br>
+        I am currently a <b>Fullstack Software Developer</b> at <br />
+        <a href="https://www.hanseaticbank.de/"> Hanseatic Bank</a>, working in Solution Development. <br />At the same time, I am undertaking a
+         <b> Bachelors's degree</b>  <br />in <b>Computer Science </b>at<br></br>
         <a href="https://bhh.de">Berufliche Hochschule Hamburg</a>.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the newest tech. I also play a lot of video games. And watch a ton of Anime.
+        Outside of work, I'm interested in following the newest tech.<br /> I also play a video games. And watch a ton of Anime.
       </p>
     );
     const three = (
@@ -45,11 +44,14 @@ class About extends React.Component {
     const tech_stack = [
       "Javascript",
       "Python",
-      "React.js",
+      "React",
       "PHP",
       "Docker",
       "Terraform",
       "Node.js",
+      "SQL",
+      "Laravel",
+      "Appium",
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
@@ -63,7 +65,9 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {[one]}
-              {"Here are some technologies I have been working with:"}
+              {<p>Here are some technologies I have been working with: <br />
+              (some more than others)
+              </p> }
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (

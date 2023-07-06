@@ -139,6 +139,33 @@ class ThreeJSAnimation extends Component {
         sphere.position.y = -2.5;
         sphere.position.x = -0.25;
         scene.add(sphere);
+
+        function createBranch(parent, depth = 0) {
+          if (depth > 5) return;
+
+          const material = new THREE.LineBasicMaterial({ color: 0x00ff00 });
+          const geometry = new THREE.BufferGeometry();
+          geometry.vertices.push(new THREE.Vector3(0, 0, 0));
+          geometry.vertices.push(new THREE.Vector3(0, 3, 0));
+          const line = new THREE.Line(geometry, material);
+
+          line.position.y = 3;
+          parent.add(line);
+
+          const leftBranch = line.clone();
+          leftBranch.rotation.z = Math.PI / 4;
+          createBranch(leftBranch, depth + 1);
+          line.add(leftBranch);
+
+          const rightBranch = line.clone();
+          rightBranch.rotation.z = -Math.PI / 4;
+          createBranch(rightBranch, depth + 1);
+          line.add(rightBranch);
+        }
+        const tree = new THREE.Object3D();
+        createBranch(tree);
+        scene.add(tree);
+
       }
 
       function update() {

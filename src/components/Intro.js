@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
@@ -8,7 +7,6 @@ import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
 import FractalTree from "./FractalTree";
 import {color} from "three/examples/jsm/libs/dat.gui.module";
-
 class Intro extends React.Component {
   constructor() {
     super();
@@ -40,9 +38,9 @@ class Intro extends React.Component {
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
             <p>
-            I'm a software Developer based in Hamburg. I am interested in Web development, artificial intelligence,
+            I'm a software Developer based in Hamburg. <br />I am interested in Web development, artificial intelligence, Software-Architecture,
             design and everything in between.<br></br>
-            <b>website is in an Alpha-State</b>
+            <b>this website is still under construction</b>
             </p>
           </div>
           <a
@@ -57,5 +55,4 @@ class Intro extends React.Component {
     );
   }
 }
-
 export default Intro;

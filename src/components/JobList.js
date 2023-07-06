@@ -108,14 +108,6 @@ const JobList = () => {
     //     "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
     //   ]
     // },
-     "Hanseatic Bank": {
-       jobTitle: "Software Developer @",
-       duration: "AUG 2021 - (Currently)",
-       desc: [
-         "As a Full Stack Developer in the Onboarding Department, I facilitate the smooth integration of numerous new customers daily, ensuring meticulous validation, logical checks, and a seamless onboarding experience for all.",
-           "Part of my practical experience includes assisting with the setup of a LEANIX-based workflow and contributing to the mapping of multiple web applications, demonstrating my ongoing learning and adaptation in a real-world setting.",
-     ]
-     },
     "MCUT | Ming Chi University of Technology": {
       jobTitle: "Cultural Study Exchange @",
       duration: "MARCH 2023 - APRIL 2023",
@@ -124,7 +116,16 @@ const JobList = () => {
         "In this endeavor, our team successfully bolstered a struggling non-profit, creating a responsive website and an impactful marketing strategy, along with developing an efficient backend system for managing current and prospective customers.",
         "we utilized a range of technologies and methodologies, such as React, SWOT Analysis, and the MoSCoW prioritization method, reinforcing my versatility in various technical and strategic approaches."
       ]
-    }
+    },
+    "Hanseatic Bank": {
+      jobTitle: "Software Developer @",
+      duration: "AUG 2021 - (Currently)",
+      desc: [
+        "As a Full Stack Developer in the Onboarding Department, I facilitate the smooth integration of numerous new customers daily, ensuring meticulous validation, logical checks, and a seamless onboarding experience for all.",
+        "Part of my practical experience includes assisting with the setup of a LEANIX-based workflow and contributing to the mapping of multiple web applications, demonstrating my ongoing learning and adaptation in a real-world setting.",
+        "Recently I have been working in the Mobile Services department, where I have been working on the Front & Backend of the Mobile Banking App, as well as the Cloud Infrastructure."
+      ]
+    },
   };
 
   const handleChange = (event, newValue) => {
