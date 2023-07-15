@@ -43,6 +43,7 @@ class About extends React.Component {
 
     const tech_stack = [
       "Javascript",
+      "Typescript",
       "Python",
       "React",
       "PHP",
