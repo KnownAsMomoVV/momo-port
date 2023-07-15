@@ -46,7 +46,7 @@ class About extends React.Component {
       "Typescript",
       "Python",
       "React",
-      "PHP",
+      "PHPtest",
       "Docker",
       "Terraform",
       "Node.js",
