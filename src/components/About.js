@@ -53,6 +53,7 @@ class About extends React.Component {
       "SQL",
       "Laravel",
       "Appium",
+      "GraphQL",
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
