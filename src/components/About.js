@@ -27,7 +27,7 @@ class About extends React.Component {
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the newest tech.<br /> I also play a video games. And watch a ton of Anime.
+        Outside of work, I'm interested in following the newest tech.<br /> I also play video games. And watch a ton of Anime.
       </p>
     );
     const three = (
