@@ -75,6 +75,21 @@
   color: var(--slate);
   font-size: 16px;
 }
+.card-image-link {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1080px) {
+  .card-image-link {
+    width: 230px;
+    height: 230px;
+  }
+}
 
 /* Spotlight carousel */
 .carousel.slide {

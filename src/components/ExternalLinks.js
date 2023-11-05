@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
+import Flag from 'react-world-flags'
 
 class ExternalLinks extends React.Component {
   constructor() {
@@ -19,14 +20,16 @@ class ExternalLinks extends React.Component {
   render() {
     return (
       <span className="external-links">
-        <a className="github-icon" href={this.props.githubLink}>
-          <GitHubIcon
-            style={{
-              fontSize: 20,
-              color: "var(--lightest-slate)"
-            }}
-          ></GitHubIcon>
-        </a>
+<a className="github-icon" href={this.props.githubLink}>
+  <Flag
+      style={{
+          fontSize: 20,
+          color: "var(--lightest-slate)"
+      }}
+      code={this.props.countryCode}
+      height="16"
+  />
+</a>
         {this.props.openLink && (
           <a className="open-icon" href={this.props.openLink}>
             <OpenInBrowserIcon
