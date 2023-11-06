@@ -46,13 +46,15 @@ class About extends React.Component {
       "Typescript",
       "Python",
       "React",
+      "React Native",
       "PHP",
       "Docker",
       "Terraform",
       "Node.js",
       "SQL",
       "Laravel",
-      "Appium",
+      "Playwright",
+      "Svelte",
       "GraphQL",
     ];
 
