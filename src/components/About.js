@@ -53,8 +53,8 @@ class About extends React.Component {
       "Node.js",
       "SQL",
       "Laravel",
-      "Svelte",
       "Playwright",
+      "Svelte",
       "GraphQL",
     ];
 
