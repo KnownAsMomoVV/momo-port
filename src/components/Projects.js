@@ -23,142 +23,134 @@ class Projects extends React.Component {
     });
   }
   render() {
-    const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
-        desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://momoh.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
-      },
-      Truth: {
-        title: "truth",
-        desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/knownasmomovv/truth",
-        open: "https://knownasmomovv.github.io/Truth/",
-        image: "/assets/truth.png"
-      },
-      "Tall Tales": {
-        title: "tall tales",
-        desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/knownasmomovv/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
-      },
-      Portfolio: {
-        title: "portfolio.js",
-        desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
-      }
-    };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Tunis, Tunisia": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "Explored Tunis and the surrounding areas of Carthage, Sidi Bou Said, and Hammamet.",
+        techStack: "October 2023",
+        link: "https://observatoirevivreensemble.org/sites/default/files/styles/obs-screen-lg-16-9/public/av_bourguiba.jpg?itok=g-wRGuZQ",
+        open: "",
+        countryCode: "tun"
       },
-      "Adam A.I.": {
+      "Taiwan, Taipeh": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+            "Participated in a Design Thinking Workshop in Taipeh and also visited The Matsu Islands.",
+        techStack: "May 2023",
+        link: "https://trpstr.de/wp-content/uploads/2021/03/001Taiwan-Taipeh-Skyline-Skyscraper-101-Tower-Urban-city-frank-heuer-2591-1920x1280.jpg",
+        open: "",
+        countryCode: "tw"
       },
-      "Distributed Logging and Monitoring System": {
+      "Korea, Seoul": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+            "Gonna share my experience Soon!",
+        techStack: "Planned 2024",
+        link: "https://www.merkur.de/bilder/2022/08/31/92158639/29730176-seoul-hauptstadt-von-suedkorea-1ife.jpg",
+        open: "",
+        countryCode: "kr"
       },
-      "Odin Bot": {
+      "America, New York": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
+            "Gonna share my experience Soon!",
+        techStack: "Planned 2023",
+        link: "https://res.klook.com/image/upload/Mobile/City/szhx3ytpgfnhpbmsngk0.jpg",
+        open: "",
+        countryCode: "us"
       },
-      "Game Centre": {
+      "Denmark, Sønderborg": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
+            "just a short trip to Denmark to explore the city of Sønderborg.",
+        techStack: "September 2022",
+        link: "https://sejlerens.com/assets/Uploads/Haefen/Kleiner-Belt-und-Fuenen/Soenderborg-Kommune/21d9f3645e/Sonderborg-38-v3.jpg",
+        open: "",
+        countryCode: "dk"
       },
-      "Minimax Stonehenge": {
+      "Belgium, Brüssel": {
         desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
+            "Explored Brüssel and the surrounding areas also visited the Atomium, European Parliament, and more!",
+        techStack: "April 2023",
+        link: "https://www.easyjet.com/ejcms/cache/medialibrary/Images/JSS/Destinations/Hero/Belgium_Brussels_3840x2160.jpg?mw=1920&hash=C11E6B90BFCA8A8B13D1ABFB82A270847441013A",
+        open: "",
+        countryCode: "be"
+      },
+      "Italy, Milano": {
+        desc:
+            "Visited the city of Milano and explored the city while meeting some family members.",
+        techStack: "December 2017",
+        link: "https://i.natgeofe.com/n/485b2f58-8e2b-4633-a1c5-658bf513e53e/alps-milan-italy_16x9.jpg",
+        open: "",
+        countryCode: "it"
+      },
+      "Czech Republic, Prague": {
+        desc:
+            "Visited the city of Prague and the konzentration camp Theresienstadt. while also exploring the city.",
+        techStack: "September 2018",
+        link: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/20/09/prague-overview.jpg?width=1200",
+        open: "",
+        countryCode: "cz"
+      },
+      "Netherlands, Amsterdam": {
+        desc:
+            "Went to Hoofdorp & Haarlem and explored the city of Amsterdam.",
+        techStack: "November 2021",
+        link: "https://static01.nyt.com/images/2023/09/24/multimedia/24-36Hrs-Amsterdam-01-01-cwqt/24-36Hrs-Amsterdam-01-01-cwqt-superJumbo.jpg",
+        open: "",
+        countryCode: "nl"
+      },
+      "Turkey, Antalya": {
+        desc:
+            "Went to Alanya while exploring the city of Antalya.",
+        techStack: "July 2016",
+        link: "https://www.antalya-urlaub.com/wp-content/uploads/2012/12/hafen-antalya-1.jpg",
+        open: "",
+        countryCode: "tr"
       }
     };
 
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ software-creations</span>
+          <span className="section-title">/ travel</span>
         </div>
-        <Carousel>
-          {Object.keys(spotlightProjects).map((key, i) => (
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={spotlightProjects[key]["image"]}
-                alt={key}
-              />
-              <div className="caption-bg">
-                <Carousel.Caption>
-                  <h3>{spotlightProjects[key]["title"]}</h3>
-                  <p>
-                    {spotlightProjects[key]["desc"]}
-                    <p className="techStack">
-                      {spotlightProjects[key]["techStack"]}
-                    </p>
-                  </p>
-                  <ExternalLinks
-                    githubLink={spotlightProjects[key]["link"]}
-                    openLink={spotlightProjects[key]["open"]}
-                  ></ExternalLinks>
-                </Carousel.Caption>
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
-              <FadeInSection delay={`${i + 1}00ms`}>
-                <li className="projects-card">
-                  <div className="card-header">
-                    <div className="folder-icon">
-                      <FolderOpenRoundedIcon
-                        style={{ fontSize: 35 }}
-                      ></FolderOpenRoundedIcon>
+                <FadeInSection delay={`${i + 1}00ms`}>
+                  <li className="projects-card">
+                    <div className="card-header">
+                      <div className="folder-icon">
+                        <FolderOpenRoundedIcon
+                            style={{ fontSize: 35 }}
+                        ></FolderOpenRoundedIcon>
+                      </div>
+                      <ExternalLinks
+                          drivelink={projects[key]["link"]}
+                          openLink={projects[key]["open"]}
+                          countryCode={projects[key]["countryCode"]}
+                      ></ExternalLinks>
                     </div>
-                    <ExternalLinks
-                      githubLink={projects[key]["link"]}
-                      openLink={projects[key]["open"]}
-                    ></ExternalLinks>
-                  </div>
 
-                  <div className="card-title">{key}</div>
-                  <div className="card-desc">{projects[key]["desc"]}</div>
-                  <div className="card-tech">{projects[key]["techStack"]}</div>
-                </li>
-              </FadeInSection>
+                    {/* Image link */}
+                    <div className="card-image-link">
+                      <a href={projects[key]["open"]} target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={projects[key]["link"]}
+                            alt={`${key} project`}
+                            style={{
+                              width: '670px',
+                              height: '200px',
+                              display: 'block',
+                              objectFit: 'contain',
+                              borderRadius: '8px'
+                            }}
+                        />
+                      </a>
+                    </div>
+
+                    <div className="card-title">{key}</div>
+                    <div className="card-desc">{projects[key]["desc"]}</div>
+                    <div className="card-tech">{projects[key]["techStack"]}</div>
+                  </li>
+                </FadeInSection>
             ))}
           </ul>
         </div>

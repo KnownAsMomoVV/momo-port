@@ -19,6 +19,7 @@
     "react-scripts": "^5.0.1",
     "react-transition-group": "^4.4.1",
     "react-typist": "^2.0.5",
+    "react-world-flags": "^1.6.0",
     "rsuite": "^4.8.2",
     "schema-utils": "^3.0.0",
     "three": "^0.126.1"
