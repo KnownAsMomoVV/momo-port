@@ -42,23 +42,31 @@ class Projects extends React.Component {
       },
       "Korea, Seoul": {
         desc:
-            "Gonna share my experience Soon!",
-        techStack: "Planned 2024",
+            "Explored Seoul and the surrounding areas of Incheon, Suwon, Gangnam, and more!",
+        techStack: "January 2024",
         link: "https://www.merkur.de/bilder/2022/08/31/92158639/29730176-seoul-hauptstadt-von-suedkorea-1ife.jpg",
         open: "",
         countryCode: "kr"
       },
+      "Finland, Turku": {
+        desc:
+            "Participated in a Design Thinking Workshop in Turku and also visited Rovaniemi & Helsinki!",
+        techStack: "February 2024",
+        link: "https://media.arto.se/app/uploads/sites/2/2017/12/22152803/river-aurajenni-virta-iloinen-liftari-oy.jpg?auto=format&crop=faces&facepad=10&fit=crop&q=50&w=750&h=600",
+        open: "",
+        countryCode: "fi"
+      },
       "America, New York": {
         desc:
-            "Gonna share my experience Soon!",
-        techStack: "Planned 2023",
+            "Explored New York & New Jersey and the surrounding areas of Queens, Brooklyn and Long Island.",
+        techStack: "December 2023",
         link: "https://res.klook.com/image/upload/Mobile/City/szhx3ytpgfnhpbmsngk0.jpg",
         open: "",
         countryCode: "us"
       },
       "Denmark, Sønderborg": {
         desc:
-            "just a short trip to Denmark to explore the city of Sønderborg.",
+            "just a short trip to Denmark to explore the city of Sønderborg.\n"+"\n",
         techStack: "September 2022",
         link: "https://sejlerens.com/assets/Uploads/Haefen/Kleiner-Belt-und-Fuenen/Soenderborg-Kommune/21d9f3645e/Sonderborg-38-v3.jpg",
         open: "",
