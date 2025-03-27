@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   momo-port:
     image: knownasmomovv/momo-port:latest
