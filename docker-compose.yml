@@ -1,9 +1,7 @@
-version: "3.8"
+version: '3.8'
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  momo-port:
+    image: knownasmomovv/momo-port:latest
     ports:
       - "3000:3000"
     restart: unless-stopped

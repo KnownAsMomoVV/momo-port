@@ -33,7 +33,7 @@ class About extends React.Component {
     const three = (
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:m.hoppe@stud.bhh.de">
+        <a href="mailto:momo@momoh.de">
           mhoppe.stud.bhh.de
         </a>{" "}
         and let's talk.

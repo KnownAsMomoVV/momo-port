@@ -44,7 +44,7 @@ class Intro extends React.Component {
             </p>
           </div>
           <a
-            href="mailto:m.hoppe@stud.bhh.de"
+            href="mailto:momo@momoh.de"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>

@@ -70,10 +70,15 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     backgroundColor: "theme.palette.background.paper",
     display: "flex",
-    height: 300
+    minHeight: "400px", // Changed from fixed height to minimum height
+    marginBottom: "8rem" // Increased bottom margin
   },
   tabs: {
     borderRight: `1px solid ${theme.palette.divider}`
+  },
+  // Add new style for the content container
+  contentContainer: {
+    paddingBottom: "40px" // Add padding to bottom of content
   }
 }));
 
@@ -123,7 +128,8 @@ const JobList = () => {
       desc: [
         "As a Full Stack Developer in the Onboarding Department, I facilitate the smooth integration of numerous new customers daily, ensuring meticulous validation, logical checks, and a seamless onboarding experience for all.",
         "Part of my practical experience includes assisting with the setup of a LEANIX-based workflow and contributing to the mapping of multiple web applications, demonstrating my ongoing learning and adaptation in a real-world setting.",
-        "Recently I have been working in the Mobile Services department, where I have been working on the Front & Backend of the Mobile Banking App, as well as the Cloud Infrastructure."
+        "Currently working in the Mobile Services department as a Full-Stack Developer with a focus on Frontend, utilizing React-Native, Metro, and Node.js to develop our Mobile Banking App.",
+        "Currently developing my Bachelor thesis focused on AI and Chatbots to enhance customer support capabilities, designing intelligent systems that efficiently address customer inquiries and streamline support processes."
       ]
     },
   };

@@ -24,6 +24,22 @@ class Projects extends React.Component {
   }
   render() {
     const projects = {
+      "Japan, Tokyo": {
+        desc:
+          "Explored Tokyo, Kyoto and Osaka while also visiting Chiba and Yokohama to experience Japan's diverse cities and culture.",
+        techStack: "May 2024",
+        link: "https://media.audleytravel.com/-/media/images/home/north-asia-and-russia/japan/activities/tokyo-gettyimages-1131743616-1000x3000.jpg?q=79&w=1920&h=685",
+        open: "",
+        countryCode: "jp"
+      },
+      "Korea, Seoul (2025)": {
+        desc:
+          "Returned to Seoul for another amazing adventure exploring new areas of the city.",
+        techStack: "February 2025",
+        link: "https://www.merkur.de/bilder/2022/08/31/92158639/29730176-seoul-hauptstadt-von-suedkorea-1ife.jpg",
+        open: "",
+        countryCode: "kr"
+      },
       "Tunis, Tunisia": {
         desc:
           "Explored Tunis and the surrounding areas of Carthage, Sidi Bou Said, and Hammamet.",
@@ -114,8 +130,8 @@ class Projects extends React.Component {
       }
     };
 
-    return (
-      <div id="projects">
+     return (
+      <div id="projects" style={{ paddingTop: "50px" }}>
         <div className="section-header ">
           <span className="section-title">/ travel</span>
         </div>
