@@ -20,14 +20,14 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a <b>Fullstack Software Developer</b> at <br />
-        <a href="https://www.hanseaticbank.de/"> Hanseatic Bank</a>, working in Solution Development. <br />At the same time, I am undertaking a
+        <a href="https://www.hanseaticbank.de/"> Hanseatic Bank</a>, working in App Development. <br />At the same time, I am undertaking a
          <b> Bachelors's degree</b>  <br />in <b>Computer Science </b>at<br></br>
         <a href="https://bhh.de">Berufliche Hochschule Hamburg</a>.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the newest tech.<br /> I also play video games. And watch a ton of Anime.
+        Outside of work, I'm interested in following the newest tech.<br /> I also play video games. And i love to Travel.
       </p>
     );
     const three = (
@@ -47,15 +47,14 @@ class About extends React.Component {
       "Python",
       "React",
       "React Native",
+      "Next.js",
       "PHP",
       "Docker",
       "Terraform",
       "Node.js",
       "SQL",
-      "Laravel",
+      "AWS",
       "Playwright",
-      "Svelte",
-      "GraphQL",
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
