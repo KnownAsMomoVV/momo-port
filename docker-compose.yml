@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   momo-port:
-    image: knownasmomovv/momo-port:latest
+    build: .
     ports:
       - "3000:3000"
     restart: unless-stopped
